@@ -19,7 +19,7 @@ def genres
 end
 
 def self.all
-self.all
+@@all
 end
 
 end
