@@ -5,7 +5,7 @@ def initialize(name = "", :genre = "")
   @name = name
   @@all << self
 end
-def new_song(name , genre)
+def new_song(name , genres)
   @songs << song
   song.artist = self
 end
