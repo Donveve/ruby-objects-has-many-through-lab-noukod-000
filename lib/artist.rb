@@ -17,7 +17,6 @@ def genres
     song.genre
   end
 end
-end
 
 def self.all
 self.all
